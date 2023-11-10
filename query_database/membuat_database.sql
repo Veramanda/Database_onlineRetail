@@ -1,5 +1,5 @@
 --Membuat Database
 CREATE DATABASE onlineRetail;
 
--- Masuk ke Database
+-- Masuk untuk Menggunakan Database
 use onlineRetail;
