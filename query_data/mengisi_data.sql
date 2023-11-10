@@ -12,21 +12,20 @@ insert into pelanggan (nama_pelanggan, kota, email, no_telepon) VALUE
 ("Jevan", "Sidoarjo", "jevan@gmail.com", "081427551967");
 
 -- Isi Data Pada Table Transaksi
-insert into barang (id_kategori, nama_barang, harga_barang, stok_barang) VALUES
-(6, '2023-08-13', 42000),
-(4, '2023-08-13', 55000),
-(1, '2023-08-19', 25000),
-(8, '2023-08-20', 28000),
-(7, '2023-08-22', 30000),
-(2, '2023-08-22', 25000),
-(5, '2023-08-25', 35000),
-(10, '2023-08-27', 30000),
-(9, '2023-08-27', 25000),
-(7, '2023-09-02', 28000),
-(2, '2023-09-05', 32000);
+insert into transaksi (id_pelanggan, tanggal_transaksi, nominal_transaksi) VALUES
+(6, '2023-10-13', 42000),
+(4, '2023-10-13', 55000),
+(1, '2023-10-19', 25000),
+(8, '2023-10-20', 28000),
+(7, '2023-10-22', 30000),
+(2, '2023-11-02', 25000),
+(5, '2023-11-05', 35000),
+(10, '2023-11-07', 30000),
+(9, '2023-11-08', 25000),
+(7, '2023-11-09', 28000),
+(2, '2023-11-10', 32000);
 
 -- Isi Data Pada Table Detail Transaksi
-insert into transaksi (id_pelanggan, tanggal_transaksi, nominal_transaksi) VALUES
 insert into detail_transaksi (transaksi_id, id_barang) VALUES
 (2, 5),
 (2, 14),
